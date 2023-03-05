@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class=" w-screen bg-[#83ffb9] h-screen wrapper flex justify-center ">
+      <div class="container w-2/6 h-[75%]">
+
+        <h1 class="my-4  self-center mx-auto w-[38%] text-slate-700 font-bold text-5xl ">Calculator</h1>
+
+        <div class="output-section bg-white w-full h-[20%] flex flex-col justify-between items-end p-4  shadow-slate-500 shadow-md">
+
+            <div class="input-display text-lg opacity-80">0</div>
+
+            <div class="answer-display text-2xl ">Ans</div>
+
+        </div>
+
+        <div class="operators-section w-full h-[12%] bg-[#4dbcff]  flex justify-evenly items-center text-white font-bold">
+          <button class="divide scale-125 text-4xl flex justify-center op">/</button>
+
+          <button class="multi scale-125 text-4xl flex justify-center op">*</button>
+
+          <button class="minus scale-125 text-4xl flex justify-center op">-</button>
+
+          <button class="plus scale-125 text-4xl flex justify-center op">+</button>
+        </div>
+
+        <div class="input-section w-full h-[70%] bg-black text-white opacity-90 flex justify-evenly flex-wrap py-4 px-10">
+                <button class="buttons px-12 py-2 opacity-90 hover:scale-110 text-4xl">7</button>
+                <button class="buttons px-12 py-2 opacity-90 hover:scale-110 text-4xl">8</button>
+                <button class="buttons px-12 py-2 opacity-90 hover:scale-110 text-4xl">9</button>
+                <button class="buttons px-12 py-2 opacity-90 hover:scale-110 text-4xl">4</button>
+                <button class="buttons px-12 py-2 opacity-90 hover:scale-110 text-4xl">5</button>
+                <button class="buttons px-12 py-2 opacity-90 hover:scale-110 text-4xl">6</button>
+                <button class="buttons px-12 py-2 opacity-90 hover:scale-110 text-4xl">1</button>
+                <button class="buttons px-12 py-2 opacity-90 hover:scale-110 text-4xl">2</button>
+                <button class="buttons px-12 py-2 opacity-90 hover:scale-110 text-4xl">3</button>
+                <button class="ac-button px-12 py-2 opacity-90 hover:scale-110 text-4xl rounded-[100%] bg-yellow-400">C</button>
+                <button class="buttons px-12 py-2 opacity-90 hover:scale-110 text-4xl">.</button>
+                <button class="buttons px-12 py-2 opacity-90 hover:scale-110 text-4xl">0</button>
+        </div>
+
+        <button class="equal bg-black w-full h-[10%] box-border p-10 text-white opacity-90 text-5xl flex justify-center items-center">=</button>
+
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
